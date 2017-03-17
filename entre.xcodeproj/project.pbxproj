@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04496BE11E78FD8A00A93853 /* RegisterationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496BE01E78FD8A00A93853 /* RegisterationPageViewController.swift */; };
+		046AB8851E7B16CF00216C77 /* ShowMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB8841E7B16CF00216C77 /* ShowMapViewController.swift */; };
+		046AB8871E7B1A2400216C77 /* ShowMapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB8861E7B1A2400216C77 /* ShowMapViewControllerDelegate.swift */; };
 		047AEF961E77B37400AAFEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AEF951E77B37400AAFEB9 /* AppDelegate.swift */; };
 		047AEF981E77B37400AAFEB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AEF971E77B37400AAFEB9 /* ViewController.swift */; };
 		047AEF9B1E77B37400AAFEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AEF991E77B37400AAFEB9 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04496BE01E78FD8A00A93853 /* RegisterationPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterationPageViewController.swift; sourceTree = "<group>"; };
+		046AB8841E7B16CF00216C77 /* ShowMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMapViewController.swift; sourceTree = "<group>"; };
+		046AB8861E7B1A2400216C77 /* ShowMapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMapViewControllerDelegate.swift; sourceTree = "<group>"; };
 		047AEF921E77B37400AAFEB9 /* entre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = entre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AEF951E77B37400AAFEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047AEF971E77B37400AAFEB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			children = (
 				047AEF951E77B37400AAFEB9 /* AppDelegate.swift */,
 				047AEF971E77B37400AAFEB9 /* ViewController.swift */,
+				04496BE01E78FD8A00A93853 /* RegisterationPageViewController.swift */,
+				046AB8861E7B1A2400216C77 /* ShowMapViewControllerDelegate.swift */,
+				046AB8841E7B16CF00216C77 /* ShowMapViewController.swift */,
 				047AEF991E77B37400AAFEB9 /* Main.storyboard */,
 				047AEF9C1E77B37400AAFEB9 /* Assets.xcassets */,
 				047AEF9E1E77B37400AAFEB9 /* LaunchScreen.storyboard */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					047AEF911E77B37400AAFEB9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KR9CA4NCKG;
 						ProvisioningStyle = Automatic;
 					};
 					047AEFA51E77B37500AAFEB9 = {
@@ -260,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				047AEF981E77B37400AAFEB9 /* ViewController.swift in Sources */,
+				04496BE11E78FD8A00A93853 /* RegisterationPageViewController.swift in Sources */,
 				047AEF961E77B37400AAFEB9 /* AppDelegate.swift in Sources */,
+				046AB8871E7B1A2400216C77 /* ShowMapViewControllerDelegate.swift in Sources */,
+				046AB8851E7B16CF00216C77 /* ShowMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KR9CA4NCKG;
 				INFOPLIST_FILE = entre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sam.entre;
@@ -422,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KR9CA4NCKG;
 				INFOPLIST_FILE = entre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sam.entre;
@@ -503,6 +518,7 @@
 				047AEFBC1E77B37500AAFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047AEFBD1E77B37500AAFEB9 /* Build configuration list for PBXNativeTarget "entreTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +527,7 @@
 				047AEFBF1E77B37500AAFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047AEFC01E77B37500AAFEB9 /* Build configuration list for PBXNativeTarget "entreUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +536,7 @@
 				047AEFC21E77B37500AAFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
